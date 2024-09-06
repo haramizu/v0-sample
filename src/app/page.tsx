@@ -1,7 +1,9 @@
+import { BlogHome } from "@/components/component/blog-home";
+
 export default function Home() {
   return (
     <main>
-      <h1>Next.js Sample</h1>
+      <BlogHome />
     </main>
   );
 }
